@@ -145,3 +145,9 @@ svg {
 .link-secondary:hover {
     color: var(--bs-green)
 }
+
+#cb-cookie-banner {
+    width:100%;
+    z-index:999;
+    border-radius:0
+}
