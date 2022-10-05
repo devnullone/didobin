@@ -1,6 +1,12 @@
 <h3 align="center">
-  didobin
+  <img src="https://didobin.pages.dev/assets/img/logo.png" alt="Bedudo Logo" width="300" height="100" />
+  <br/>
+  Bedudo (didobin)
 </h3>
+
+---
+
+### Introduction
 
 A website for the next opensource smart bin solution, Please give a start to support and share your love on opensource
 
@@ -9,7 +15,10 @@ This repo design using:
 -  CSS3;
 -  Js
 
-## Project Contributors 🏆🏆
+### Contributing
 
-<a href="https://github.com/devnullone/didobin/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=devnullone/didobin" />
+Before you start working on something, it's best to check if there is an existing issue first or if someone else is already working on it.
+
+Please make sure to read the [Contributing Guide](CONTRIBUTING.md) before making a pull request.
+
+Thank you to everyone contributing to Bedudo! 
