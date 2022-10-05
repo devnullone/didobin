@@ -41,7 +41,7 @@ app.post("/", (req, res) => {
     });
 
     const mailData = {
-        from: 'yashkadulkar3@gmail.com',  // proxy sender address
+        from: '<PROXY_EMAIL_ADDRESS>',  // proxy sender address
         to: 'info@bedudo.com',   // receive the message on your company email
         subject: `Message from Bedudo user: ${name}, ${email}`,
         text: `${message}`,
