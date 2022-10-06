@@ -1,5 +1,5 @@
 body{
-    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .mre5 {
     margin-right: 35px !important
@@ -153,23 +153,4 @@ svg {
     width:100%;
     z-index:999;
     border-radius:0
-}
-
-#btnScrollToTop {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #00b779;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-    color: #FFFFFF;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-#btnScrollToTop:active{
-    background: rgb(12, 214, 12);
 }
