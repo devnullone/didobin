@@ -139,7 +139,7 @@ svg {
 }
 
 .link-secondary {
-    color: #000
+    color: white
 }
 
 .link-secondary:hover {
@@ -169,4 +169,31 @@ svg {
 
 #btnScrollToTop:active{
     background: rgb(12, 214, 12);
+}
+
+
+
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+
+.container p {
+    margin-top: 9px;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+
+
+.container-yo{
+    padding-left: 80px;
+    width: 100%;
+}
+.container-imgg{
+    width: 452px;
+    height: 361px;
+    padding-left: 0px;
+    padding-right: 49px;
 }
