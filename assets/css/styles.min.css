@@ -33,7 +33,9 @@ nav li:after {
 #demo,
 .bs-icon-circle.bs-icon-primary.bs-icon,
 .bs-icon-md.bs-icon-circle.bs-icon-primary.bs-icon.bs-icon-md {
-    background-color: var(--bs-green)
+    background-color: var(--bs-green);
+    color: white;
+    border-color: var(--bs-green);
 }
 
 .bg-white-300 {
@@ -64,7 +66,8 @@ nav li:after {
 }
 
 .btn:hover {
-    background-color: var(--bs-success);
+    background-color: white;
+    color: var(--bs-green);
     border-color: var(--bs-green);
 }
 
