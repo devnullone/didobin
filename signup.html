@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/signup.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script async src="assets/js/signup.js"></script>
+</head>
+<body>
+    <!-- LOGIN MODULE -->
+    <div class="login">
+        <div class="wrap">
+            <!-- TOGGLE -->
+            <div id="toggle-wrap">
+                <div id="toggle-terms">
+                    <div id="cross">
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <!-- TERMS -->
+            <div class="terms">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porta ac mauris at fermentum. Suspendisse malesuada facilisis lacus, a cursus quam tincidunt at. Nam iaculis rhoncus eros, id faucibus urna congue eget. Nulla facilisi. Fusce scelerisque, massa porttitor elementum mattis, eros sem gravida enim, vitae accumsan nisi justo id mi. Nulla nec elit nec libero finibus ullamcorper vel eget tellus. Cras commodo velit leo, in interdum mauris posuere vel. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat.
+
+                    Etiam auctor vitae velit in rutrum. Ut pharetra nulla in tellus imperdiet dignissim. Curabitur a nibh et velit posuere dapibus eu sed justo. Integer sed elit non lectus ultrices posuere eu ut nunc. Vivamus placerat diam sit amet risus volutpat cursus. Vestibulum ac velit ac elit scelerisque ultricies. Etiam a arcu semper, scelerisque massa eget, malesuada sem. Vivamus pellentesque nibh vitae sodales egestas. Etiam ultricies tempus diam non elementum. Ut in fringilla eros, eget hendrerit velit. Quisque a porta lacus, non dictum risus.
+                    
+                    Sed eu nunc sit amet sapien maximus efficitur. Morbi dignissim sapien vitae posuere porttitor. Vestibulum semper libero congue interdum suscipit. Maecenas sit amet tellus at mauris sagittis gravida. Etiam eu erat eros. Duis porta nulla ligula, sed imperdiet neque dapibus et. In dictum felis nunc, eu tincidunt dolor mattis id. Fusce ullamcorper eget dolor a pretium. Nam dapibus posuere arcu, ut pretium dolor commodo et. Nulla massa elit, finibus tincidunt est sit amet, convallis convallis massa. Curabitur sed porttitor est.
+                    
+                    Proin rutrum rhoncus sollicitudin. Aliquam sit amet sodales augue, ut suscipit nisl. Praesent dui augue, feugiat sit amet sollicitudin sagittis, vulputate et mauris. Mauris viverra, turpis sed mattis egestas, neque lectus vulputate ligula, eget dapibus justo neque eget velit. Nunc a malesuada ex. Nullam ornare risus eros, eget rhoncus nisi blandit et. Cras sem purus, accumsan in ullamcorper non, congue non odio. Maecenas nec tortor ex. Phasellus posuere at purus ut condimentum. Phasellus venenatis velit ipsum, a mattis risus egestas sed. Quisque sit amet erat urna. Sed dui ligula, gravida et feugiat quis, viverra at ex. Sed et scelerisque turpis, vel condimentum lorem. Phasellus vitae erat a nulla euismod suscipit quis quis libero.</p>
+                <input type="checkbox" id="accept1" name="vehicle1" value="accept">
+                <label for="accept1"> I have read the terms and conditions and agree to accept them</label><br>
+            </div>
+
+            <!-- RECOVERY -->
+            <div class="recovery">
+                <h2>Password Recovery</h2>
+                <p>Enter either the <strong>email address</strong> or <strong>username</strong> on the account and <strong>click Submit</strong></p>
+                <p>We'll email instructions on how to reset your password.</p>
+                <form class="recovery-form" action="" method="post">
+                    <input type="text" class="input" id="user_recover" placeholder="Enter Email or Username Here">
+                    <input type="submit" class="button" value="Submit">
+                </form>
+                <p class="mssg">An email has been sent to you with further instructions.</p>
+            </div>
+
+            <!-- SLIDER -->
+            <div class="content">
+                <!-- LOGO -->
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <!-- LOGIN FORM -->
+            <div class="user">
+                <!-- ACTIONS
+                <div class="actions">
+                    <a class="help" href="#signup-tab-content">Sign Up</a><a class="faq" href="#login-tab-content">Login</a>
+                </div>
+                -->
+                <div class="form-wrap">
+                    <!-- TABS -->
+                    <div class="tabs">
+                        <h3 class="login-tab"><a class="log-in active" href="#login-tab-content"><span>Login<span></a></h3>
+                        <h3 class="signup-tab"><a class="sign-up" href="#signup-tab-content"><span>Sign Up</span></a></h3>
+                    </div>
+                    <!-- TABS CONTENT -->
+                    <div class="tabs-content">
+                        <!-- TABS CONTENT LOGIN -->
+                        <div id="login-tab-content" class="active">
+                            <form class="login-form" action="index.html" method="post">
+                                <input type="text" class="input" id="user_login" autocomplete="off" placeholder="Email or Username">
+                                <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+                                <input type="checkbox" class="checkbox" checked id="remember_me">
+                                <label for="remember_me">Remember me</label>
+                                <input type="submit" class="button" value="Login">
+                            </form>
+                            <div class="help-action">
+                                <p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="forgot" href="#">Forgot your password?</a></p>
+                            </div>
+                        </div>
+                        <!-- TABS CONTENT SIGNUP -->
+                        <div id="signup-tab-content">
+                            <form class="signup-form" action="#loggin-tab-content" method="post">
+                                <input type="email" class="input" id="user_email" autocomplete="off" placeholder="Email">
+                                <input type="text" class="input" id="user_name" autocomplete="off" placeholder="Username">
+                                <input type="password" class="input" id="user_pass" autocomplete="off" placeholder="Password">
+                                <input type="submit" class="button">
+                            </form>
+                            <div class="help-action">
+                                <p>By signing up, you agree to our</p>
+                                <p><i class="fa fa-arrow-left" aria-hidden="true"></i><a class="agree" href="#">Terms of service</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
