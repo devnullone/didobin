@@ -1,10 +1,25 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .mre5 {
     margin-right: 35px !important
 }
 
 #logo {
     height: 70px;
-    padding-left: 0
+    width: 180px;
+    padding-left: 0;
+    cursor:pointer;
+    transition: background 0.2s ;
+}
+
+#logo:hover{
+    border: 2px solid #CDF0EA;
+    border-radius: 25px;
+    background-color: #CDF0EA;
+    
 }
 
 nav li {
