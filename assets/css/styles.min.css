@@ -170,3 +170,38 @@ svg {
 #btnScrollToTop:active{
     background: rgb(12, 214, 12);
 }
+#demo{
+    margin-left: auto;
+}
+.signup-heading{
+    text-align: center;
+}
+.signup-container{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+    background-color: rgb(245, 245, 245);
+    padding: 2rem;
+}
+.signup-inputs{
+    border-radius: 4px;
+    border: 1px black solid;
+    max-width: 40rem;
+    padding: 6px;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+    text-align: center;
+    font-size: 0.85rem;
+}
+.signup-labels{
+    font-weight: 500;
+}
+.signup-page{
+    height: 70vh;
+}
+.signup-footer{
+    background-color: var(--bs-green);
+    color:rgb(245, 245, 245);
+    text-align: center;
+    height: auto;
+}
